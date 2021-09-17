@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Ubuntu', sans-serif;
+}
+body{
+    align-items: center;
+    background: #FFFFFF;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex
+
+}
+.card {
+    width: 352px;
+    height: 585px;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 1px -2px 32px 63px #f6f6f6;
+}
+.img {
+    display: inline;
+}
+.img img {
+    width: 11%;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #00000066;
+}
+.title {
+    display: block;
+    position: relative;
+    left: 43px;
+    bottom: 37px;
+}
+.title p {
+    font-size: 17px;
+    margin-bottom: -3px;
+}
+.title span {
+    font-size: 12px;
+}
+.title-icon img {
+    position: relative;
+    left: 97%;
+    top: -70px;
+    width: 8px;
+    margin-bottom: 18px;
+}
+.insta-img img {
+    width: 313px;
+    height: 314px;
+    position: relative;
+    bottom: 72px;
+}
+.like-item{
+    position: relative;
+    bottom: 57px;
+}
+.like-item p {
+    font-weight: 500;
+    padding: 5px 6px;
+    font-size: 15px;
+}
+.like-item span {
+    padding-left:6px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.like-item span:last-child{
+    color: rgba(0, 0, 0, 0.452) ;
+    padding: 0 !important;
+    font-weight: normal;
+}
+.like-item img {
+    font-size: 20px;
+    width: 26px;
+    margin: 0 5px;
+}
+.last-icon{
+    float: right;
+}
+.like-item p:last-child{
+    display: inline;
+}
+
+.comment span {
+    margin-bottom: 36px;
+    position: relative;
+    bottom: 45px;
+    margin-left: -24px;
+    color: #0000006e;
+}
+.comment img {
+    width: 29px;
+    border-radius: 50px;
+    float: left;
+    border: 1px solid #0000003b;
+    position: relative;
+    bottom: 19px;
+    left: 4px;
+}
+input {
+    border: none;
+    padding: 6px 10px;
+    position: relative;
+    left: 5px;
+    bottom: 40px;
+}
+.comment p {
+    font-size: 13px;
+    position: relative;
+    bottom: 31px;
+    left: 4px;
+    color: #0000007a;
+}
